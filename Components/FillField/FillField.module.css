@@ -1,0 +1,24 @@
+.FillField {
+    margin-bottom: 1rem;
+}
+
+.FillField label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #495057;
+    font-weight: 500;
+}
+
+.FillField input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.FillField input:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

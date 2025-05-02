@@ -3,6 +3,9 @@ import { useState, useEffect, useRef } from 'react';
 export default function ComponenteOtimizado() {
     const [estaVisivel, setEstaVisivel] = useState(false); // Começa como false para evitar flash inicial
     const ref = useRef();
+    useEffect(() => { 
+        console.log('renderizado ou desrenderizado')
+    }, [estaVisivel])
 
     useEffect(() => {
         const observer = new IntersectionObserver(
